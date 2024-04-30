@@ -20,29 +20,29 @@ export default function TodoForm({ addTodo }) {
         addTodo(text);
         setText("");
     }
-  return (
-    <ListItem>
-        <form onSubmit={handleSubmit}>    
-            <TextField 
-                id="outlined-basic" 
-                label="Insert Todo" 
-                variant="outlined" 
-                onChange={handleChange} 
-                value={text}
-                InputProps={{
-                    endAdornment: (
-                        <InputAdornment position="end">
-                            <IconButton aria-label="toggle password visibility" edge="end" type="submit">
-                            <Create />
-                            </IconButton>
-                        </InputAdornment>
-                    ),
-                }}
-            />
-        </form>
-    </ListItem>
-    
-     );
+    return (
+        <ListItem>
+            <form onSubmit={handleSubmit}>    
+                <TextField 
+                    id="outlined-basic" 
+                    label="Insert Todo" 
+                    variant="outlined" 
+                    onChange={handleChange} 
+                    value={text}
+                    InputProps={{
+                        endAdornment: (
+                            <InputAdornment position="end">
+                                <IconButton aria-label="toggle password visibility" edge="end" type="submit">
+                                <Create />
+                                </IconButton>
+                            </InputAdornment>
+                        ),
+                    }}
+                />
+            </form>
+        </ListItem>
+        
+    );
 }
 
 

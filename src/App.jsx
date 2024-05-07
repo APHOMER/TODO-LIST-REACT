@@ -1,6 +1,6 @@
 
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+// import reactLogo from './assets/react.svg'
+// import viteLogo from '/vite.svg'
 
 import CssBaseline from "@mui/material/CssBaseline";
 import './App.css'

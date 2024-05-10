@@ -1,4 +1,3 @@
-
 // import reactLogo from './assets/react.svg'
 // import viteLogo from '/vite.svg'
 
@@ -18,7 +17,7 @@ function App() {
       <Navbar />
       <h1>Helloooooooo</h1>
       <TodoList />
-      {/* <TableFooter /> */}
+      <TableFooter />
       <SimpleBottomNavigation />
     </>
   )

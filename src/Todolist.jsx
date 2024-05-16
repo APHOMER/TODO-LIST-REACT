@@ -57,13 +57,13 @@ export default function TodoList() {
 
     return (
         <Box 
-            sx={{
-                display: "flex",
-                justifyContent: "center",
-                flexDirection: "column",
-                alignItems: "center",
-                m: 3,
-            }}
+            // sx={{
+            //     display: "flex",
+            //     justifyContent: "center",
+            //     flexDirection: "column",
+            //     alignItems: "center",
+            //     m: 3,
+            // }}
         >
             <Typography variant="h2" component="h1" sx={{ flexGrow: 1 }}>
                 Todos

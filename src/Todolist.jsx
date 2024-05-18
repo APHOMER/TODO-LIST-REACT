@@ -20,7 +20,6 @@ const getInitialData = () => {
     return data;
 };
 
-
 export default function TodoList() {
     const [todos, setTodos] = useState(getInitialData);
     // const [todos, setTodos] = useState(initialTodos); // for initialtodos

@@ -7,12 +7,12 @@ import TodoForm from './TodoForm';
 import { Box, Typography } from "@mui/material"
 
 
-const initialTodos = [
-    {id: 1, name: "Mercy", text: "I am a cool guy", completed: true},
-    {id: 2, name: "Sunday", text: "I am a good man", completed: false},
-    {id: 3, name: "Aphomer", text: "I am a calm bro", completed: true},
-    {id: 4, name: "APHO", text: "I am a gentle guy", completed: false}
-]
+// const initialTodos = [
+//     {id: 1, name: "Mercy", text: "I am a cool guy", completed: true},
+//     {id: 2, name: "Sunday", text: "I am a good man", completed: false},
+//     {id: 3, name: "Aphomer", text: "I am a calm bro", completed: true},
+//     {id: 4, name: "APHO", text: "I am a gentle guy", completed: false}
+// ]
 
 const getInitialData = () => {
     const data = JSON.parse(localStorage.getItem("todos"));
